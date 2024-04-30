@@ -1,0 +1,11 @@
+export default function S1() {
+  return (
+    <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg mr-10">
+      <div className="flex flex-col ml-7 mt-5">
+        <h1 className="text-[1rem] font-bold">For Men's</h1>
+        <h1 className="text-xs">Starting at $24</h1>
+      </div>
+      <h1 className="ml-[5.3rem] mt-8 text-[0.9rem]">Shop Now</h1>
+    </div>
+  );
+}

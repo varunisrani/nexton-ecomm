@@ -4,6 +4,8 @@ import Part1 from "./Part1";
 
 import Image from "next/image";
 import Footer from "@/Components/Footer/Footer";
+import S1 from "@/Components/Home/S1";
+import Product from "@/Components/Product";
 
 export default function Page() {
   return (
@@ -32,41 +34,11 @@ export default function Page() {
         </div>
       </div>
       <div className="flex flex-row mr-[5rem] ml-[5rem] mt-[2rem]">
-        <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg mr-10">
-          <div className="flex flex-col ml-7 mt-7">
-            <h1 className="text-[1rem] font-bold">For Men's</h1>
-            <h1 className="text-xs">Starting at $24</h1>
-          </div>
-          <h1 className="ml-[5.3rem] mt-8 text-[0.9rem]">Shop Now</h1>
-        </div>
-        <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg  mr-10">
-          <div className="flex flex-col ml-7 mt-7">
-            <h1 className="text-[1rem] font-bold">For Men's</h1>
-            <h1 className="text-xs">Starting at $24</h1>
-          </div>
-          <h1 className="ml-[5.3rem] mt-8 text-[0.9rem]">Shop Now</h1>
-        </div>
-        <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg  mr-10">
-          <div className="flex flex-col ml-7 mt-7">
-            <h1 className="text-[1rem] font-bold">For Men's</h1>
-            <h1 className="text-xs">Starting at $24</h1>
-          </div>
-          <h1 className="ml-[5.3rem] mt-8 text-[0.9rem]">Shop Now</h1>
-        </div>
-        <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg  mr-10">
-          <div className="flex flex-col ml-7 mt-7">
-            <h1 className="text-[1rem] font-bold">For Men's</h1>
-            <h1 className="text-xs">Starting at $24</h1>
-          </div>
-          <h1 className="ml-[5.3rem] mt-8 text-[0.9rem]">Shop Now</h1>
-        </div>
-        <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg  mr-10">
-          <div className="flex flex-col ml-7 mt-7">
-            <h1 className="text-[1rem] font-bold">For Men's</h1>
-            <h1 className="text-xs ">Starting at $24</h1>
-          </div>
-          <h1 className="ml-[5.3rem] mt-8 text-[0.9rem]">Shop Now</h1>
-        </div>
+        <S1 />
+        <S1 />
+        <S1 />
+        <S1 />
+        <S1 />
       </div>
 
       <div className="flex flex-col mr-[5rem] ml-[5rem]">
@@ -76,110 +48,18 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-12 mt-[3rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-20 mt-[3rem]">
         <div className="flex flex-row">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+          <Product />
         </div>
-        <div className="flex flex-row ">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+        <div className="flex flex-row">
+          <Product />
         </div>
-        <div className="flex flex-row ">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+        <div className="flex flex-row">
+          <Product />
         </div>
-        <div className="flex flex-row ">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+        <div className="flex flex-row">
+          <Product />
         </div>
       </div>
       <div className="flex flex-col mr-[5rem] ml-[5rem]">
@@ -189,110 +69,18 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-12 mt-[3rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-20 mt-[3rem]">
         <div className="flex flex-row">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+          <Product />
         </div>
-        <div className="flex flex-row ">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+        <div className="flex flex-row">
+          <Product />
         </div>
-        <div className="flex flex-row ">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+        <div className="flex flex-row">
+          <Product />
         </div>
-        <div className="flex flex-row ">
-          <div className="flex flex-col">
-            <Image
-              src="https://i.ibb.co/8shMTZ9/product-image.png"
-              height={350}
-              width={350}
-              className="rounded-xl"
-            />
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-semibold text-black">
-                Black Automatic Watch
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-12">
-                $169.99
-              </h1>
-            </div>
-            <div className="flex flex-row ml-3 mt-4">
-              <h1 className="text-[1.1rem] font-normal text-black">
-                Accessories{" "}
-              </h1>
-              <h1 className="text-[1.1rem] font-medium text-black ml-[9rem]">
-                $<span className="line-through">199.99</span>
-              </h1>
-            </div>
-          </div>
+        <div className="flex flex-row">
+          <Product />
         </div>
       </div>
 
