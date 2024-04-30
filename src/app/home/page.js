@@ -8,12 +8,12 @@ import Footer from "@/Components/Footer/Footer";
 export default function Page() {
   return (
     <div className="flex flex-col ">
-      <div className="flex flex-col text-7[1rem] mr-[9rem] ml-[8rem]">
+      <div className="flex flex-col text-7[1rem] mr-[5rem] ml-[5rem]">
         <Navbar />
       </div>
       <Slider />
 
-      <div className="flex flex-row justify-between   w-[100rem] h-[5.3rem] border border-black/20  mt-[3rem] rounded-[1rem] mr-[8rem] ml-[9rem] ">
+      <div className="flex flex-row justify-between   w-[100rem] h-[5.3rem] border border-black/20  mt-[3rem] rounded-[1rem] mr-[5rem] ml-[5rem] ">
         <div className="ml-10 mt-5 flex flex-row  w-[100rem] justify-between mr-10">
           <Part1 title="Free shipping" stitle="On orders over $50.00" />
           <Part1 title="Very easy to return" stitle="Just phone number" />
@@ -25,13 +25,13 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-col mr-[9rem] ml-[9rem]">
+      <div className="flex flex-col mr-[5rem] ml-[5rem]">
         <div className="flex flex-row gap-2 text-[2.2rem] mt-[5.3rem] font-medium ">
           <h1>Start exploring.</h1>
           <h1 className="text-black/60">Good things are waiting for you</h1>
         </div>
       </div>
-      <div className="flex flex-row mr-[9rem] ml-[9rem] mt-[2rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] mt-[2rem]">
         <div className="flex flex-row w-[20rem] h-[5.3rem] bg-gray rounded-lg mr-10">
           <div className="flex flex-col ml-7 mt-7">
             <h1 className="text-[1rem] font-bold">For Men's</h1>
@@ -69,14 +69,14 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-col mr-[9rem] ml-[9rem]">
+      <div className="flex flex-col mr-[5rem] ml-[5rem]">
         <div className="flex flex-row gap-2 text-[2.2rem] mt-[8.3rem] font-medium ">
           <h1>Recommendations.</h1>
           <h1 className="text-black/60">Best matching products for you</h1>
         </div>
       </div>
 
-      <div className="flex flex-row mr-[9rem] ml-[9rem] gap-12 mt-[3rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-12 mt-[3rem]">
         <div className="flex flex-row">
           <div className="flex flex-col">
             <Image
@@ -182,14 +182,14 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mr-[9rem] ml-[9rem]">
+      <div className="flex flex-col mr-[5rem] ml-[5rem]">
         <div className="flex flex-row gap-2 text-[2.2rem] mt-[8.3rem] font-medium ">
           <h1>Best Sellers.</h1>
           <h1 className="text-black/60">Best selling of the month</h1>
         </div>
       </div>
 
-      <div className="flex flex-row mr-[9rem] ml-[9rem] gap-12 mt-[3rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-12 mt-[3rem]">
         <div className="flex flex-row">
           <div className="flex flex-col">
             <Image
@@ -319,7 +319,7 @@ export default function Page() {
           Shop now
         </button>
       </div>
-      <div className="mr-[8rem] ml-[8rem]">
+      <div className="mr-[5rem] ml-[5rem]">
         <Footer />
       </div>
     </div>
