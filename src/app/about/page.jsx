@@ -1,9 +1,7 @@
 import Aform from "@/Components/About/Aform";
-import Asec1 from "@/Components/About/asec1";
+import Asec1 from "@/Components/About/Asec1";
 import Footer from "@/Components/Footer/Footer";
-import { Input } from "@/Components/Input";
 import Navbar from "@/Components/Navbar";
-import Image from "next/image";
 
 export default function page() {
   return (
