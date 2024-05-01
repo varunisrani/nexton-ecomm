@@ -8,6 +8,7 @@ export default function Slider() {
         height={400}
         width={1920}
         className="mt-8"
+        alt=""
       />
       <h1 className="text-xl absolute top-[10rem] left-[8rem] right-50 bottom-0 text-center text-black p-4 ">
         Starting from: $49.99

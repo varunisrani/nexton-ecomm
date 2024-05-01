@@ -14,21 +14,25 @@ export default function page() {
             src="https://i.ibb.co/4gGzqdK/image.png"
             height={140}
             width={140}
+            alt=""
           />
           <Image
             src="https://i.ibb.co/1sScg5K/product-27-1-4-1.png"
             height={140}
             width={140}
+            alt=""
           />
           <Image
             src="https://i.ibb.co/XsgP5gP/product-27-3-1.png"
             height={140}
             width={140}
+            alt=""
           />
           <Image
             src="https://i.ibb.co/Xzx0Wv7/product-27-4-1.png"
             height={140}
             width={140}
+            alt=""
           />
         </div>
 
@@ -38,6 +42,7 @@ export default function page() {
             height={625}
             width={625}
             className="mt-5 rounded-xl"
+            alt=""
           />
           <div className="mt-6 ml-[8rem]">
             <Box />

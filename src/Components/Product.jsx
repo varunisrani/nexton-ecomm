@@ -8,6 +8,7 @@ export default function Product() {
         height={350}
         width={350}
         className="rounded-xl"
+        alt=""
       />
       <div className="flex flex-row ml-3 mt-4">
         <h1 className="text-[1.1rem] font-semibold text-black">

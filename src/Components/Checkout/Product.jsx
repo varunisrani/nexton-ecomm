@@ -7,7 +7,7 @@ export default function Product() {
         src="https://i.ibb.co/4gGzqdK/image.png"
         height={140}
         width={140}
-        alt="ss"
+        alt=""
       />
       <div className="flex flex-row">
         <div className="flex flex-col mt-1 ml-5">

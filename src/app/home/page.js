@@ -89,6 +89,7 @@ export default function Page() {
           src="https://i.ibb.co/KKXBBR8/hero-bg.png"
           height={200}
           width={1600}
+          alt=""
           className="mt-8 ml-[9rem] mr-[9rem] rounded-2xl"
         />
 

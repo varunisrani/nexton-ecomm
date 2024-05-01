@@ -10,6 +10,7 @@ export default function F2() {
         src="https://i.ibb.co/TTpgFTx/payment-icons.png"
         height={200}
         width={200}
+        alt=""
       />
     </div>
   );
