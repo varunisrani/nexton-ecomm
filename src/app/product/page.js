@@ -41,7 +41,7 @@ export default function page() {
             src="https://i.ibb.co/4gGzqdK/image.png"
             height={625}
             width={625}
-            className="mt-5 rounded-xl"
+            className="mt-6 rounded-xl"
             alt=""
           />
           <div className="mt-6 ml-[8rem]">
