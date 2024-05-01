@@ -14,6 +14,7 @@ export default function Asec1() {
           src="https://i.ibb.co/K2g1nBM/image.png"
           height="500"
           width="500"
+          alt="ss"
           className="rounded-2xl"
         />
         <div className="flex flex-col ml-[20rem] mt-[10rem]">
@@ -43,6 +44,7 @@ export default function Asec1() {
           src="https://i.ibb.co/BT0Kcf6/image.png"
           height="550"
           width="550"
+          alt="ss"
           className="rounded-2xl ml-[27rem]"
         />
       </div>
