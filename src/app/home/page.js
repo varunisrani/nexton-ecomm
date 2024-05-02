@@ -48,7 +48,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-5 md:gap-20 mt-[3rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] gap-5 mad4:gap-20 mt-[3rem]">
         <div className="flex flex-row">
           <Product />
         </div>
