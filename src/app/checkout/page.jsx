@@ -5,7 +5,7 @@ import Navbar from "@/Components/Navbar";
 
 export default function page() {
   return (
-    <div className="flex flex-col ml-[8rem] mr-[8rem]">
+    <div className="flex flex-col ml-[5rem] mr-[5rem]">
       <Navbar />
       <div className="flex flex-row">
         <Csec1 />

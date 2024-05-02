@@ -39,7 +39,6 @@ export default function Asec1() {
             requirements are increasing. Riode has brought.
           </h1>
         </div>
-        npm shadcn-ui@latest add input
         <Image
           src="https://i.ibb.co/BT0Kcf6/image.png"
           height="550"
