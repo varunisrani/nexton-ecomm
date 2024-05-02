@@ -5,8 +5,10 @@ import Input1 from "../Loginform/Input1";
 export default function RegisterForm() {
   return (
     <main className="flex flex-col justify-center items-center mt-[3rem] mad4:mt-[1.5rem]">
-      <h1 className="text-[2.5rem] font-medium mad4:text-[2.2rem]">Register</h1>
-      <div className="mt-[4rem] mad4:mt-[2rem] flex flex-col gap-9">
+      <h1 className="text-[2.5rem] font-medium mad4:text-[2.2rem] mad3:text-[2.2rem]">
+        Register
+      </h1>
+      <div className="mt-[4rem] mad4:mt-[2rem] mad3:mt-[2rem] flex flex-col gap-9">
         <Input1 label="Email" place="example@example.com" type="email" />
         <Input1 label="Password" type="password" />
         <Input1 label="Password (Again)" type="password" />

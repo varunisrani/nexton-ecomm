@@ -14,10 +14,10 @@ export default function Slider() {
         Starting from: $49.99
       </h1>
 
-      <span className="text-[5rem] font-semibold absolute top-[13rem] left-[8rem] right-50 bottom-0 text-center text-black p-4">
+      <span className="text-[5rem] mad3:text-[4rem] font-semibold absolute top-[13rem] left-[8rem] right-50 bottom-0 text-center text-black p-4">
         Exclusive collection
       </span>
-      <span className="text-[5rem] font-semibold absolute top-[18.5rem] left-[8rem] right-50 bottom-0 text-center text-black p-4">
+      <span className="text-[5rem] mad3:text-[4rem] font-semibold absolute top-[18.5rem] left-[8rem] right-50 bottom-0 text-center text-black p-4">
         for everyone
       </span>
 

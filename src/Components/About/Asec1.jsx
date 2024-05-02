@@ -17,8 +17,8 @@ export default function Asec1() {
           alt=""
           className="rounded-2xl"
         />
-        <div className="flex flex-col ml-[20rem] mt-[10rem]">
-          <h1 className="w-[35rem] text-5xl font-medium">
+        <div className="flex flex-col ml-[20rem] mt-[10rem] mad3:mt-[6rem] mad3:ml-[10rem] mad4:ml-[10rem]">
+          <h1 className="w-[35rem] text-5xl font-medium ">
             Provide fashionable and qualifed products
           </h1>
           <h1 className="w-[45rem] mt-6 text-xl">
@@ -29,8 +29,8 @@ export default function Asec1() {
         </div>
       </div>
       <div className="flex flex-row mt-[5rem]">
-        <div className="flex flex-col ml-[0rem] mt-[10rem]">
-          <h1 className="w-[35rem] text-5xl font-medium">
+        <div className="flex flex-col ml-[0rem] mt-[10rem] mad3:mt-[6rem]">
+          <h1 className="w-[35rem] text-5xl font-medium ">
             Provide fashionable and qualifed products
           </h1>
           <h1 className="w-[45rem] mt-4 text-xl">
@@ -44,7 +44,7 @@ export default function Asec1() {
           height="550"
           width="550"
           alt=""
-          className="rounded-2xl ml-[27rem]"
+          className="rounded-2xl ml-[27rem] mad3:ml-[10rem] mad4:ml-[10rem]"
         />
       </div>
     </>
