@@ -70,13 +70,13 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="relative mt-[8rem]">
+      <div className="relative mt-[8rem] mad3:mt-[4rem] mad5:mt-[4rem]">
         <Image
           src="https://i.ibb.co/KKXBBR8/hero-bg.png"
           height={200}
           width={1600}
           alt=""
-          className="mt-8 ml-[9rem] mad3:hidden mad4:hidden mr-[9rem] rounded-2xl"
+          className="mt-8 ml-[9rem]   mr-[9rem] rounded-2xl"
         />
         <Image
           src="https://i.ibb.co/KKXBBR8/hero-bg.png"
