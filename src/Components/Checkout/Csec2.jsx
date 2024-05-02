@@ -3,7 +3,7 @@ import Product from "./Product";
 
 export default function Csec2() {
   return (
-    <div className="flex flex-col  ml-[15rem] mad4:ml-[8rem] mad3:ml-[4rem] mt-[3rem]">
+    <div className="flex flex-col  ml-[15rem] mad4:ml-[8rem] mad3:ml-[1.2rem] mt-[3rem]">
       <h1 className="text-2xl font-semibold">Order summary</h1>
       <div className="border border-[#475569] w-[40rem] h-0 mt-[1rem]"></div>
       <Product />
