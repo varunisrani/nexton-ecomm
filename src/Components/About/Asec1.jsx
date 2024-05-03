@@ -17,11 +17,11 @@ export default function Asec1() {
           alt=""
           className="rounded-2xl"
         />
-        <div className="flex flex-col ml-[20rem] mt-[10rem] mad3:mt-[6rem] mad3:ml-[10rem]  mad2:mt-[6rem] mad2:ml-[10rem] mad1:mt-[6rem] mad1:ml-[5rem] mad4:ml-[10rem]">
-          <h1 className="w-[35rem] text-5xl font-medium mad2:text-4xl mad1:text-4xl">
+        <div className="flex flex-col ml-[20rem] mt-[10rem] mad3:mt-[6rem] mad3:ml-[10rem]  mad2:mt-[6rem] mad2:ml-[10rem] mad1:mt-[6rem] mad1:ml-[5rem] mad6:mt-[6rem] mad6:ml-[2rem] mad4:ml-[10rem]">
+          <h1 className="w-[35rem] text-5xl font-medium mad2:text-4xl mad1:text-4xl mad6:text-4xl">
             Provide fashionable and qualifed products
           </h1>
-          <h1 className="w-[45rem] mt-6 text-xl">
+          <h1 className="w-[45rem] mt-6 text-xl mad6:text-[1rem] mad6:w-[31rem]">
             Already millions of people are very satisfied by thi. s page builder
             and the number is growing more and more. Technolog developing,
             requirements are increasing. Riode has brought.
@@ -29,11 +29,11 @@ export default function Asec1() {
         </div>
       </div>
       <div className="flex flex-row mt-[5rem]">
-        <div className="flex flex-col ml-[0rem] mt-[10rem] mad3:mt-[6rem] mad2:mt-[6rem] mad1:mt-[6rem]">
-          <h1 className="w-[35rem] text-5xl font-medium mad2:text-4xl mad1:text-4xl">
+        <div className="flex flex-col ml-[0rem] mt-[10rem] mad3:mt-[6rem] mad2:mt-[6rem] mad1:mt-[6rem] mad6:mt-[6rem]">
+          <h1 className="w-[35rem] text-5xl font-medium mad2:text-4xl mad1:text-4xl mad6:text-4xl">
             Provide fashionable and qualifed products
           </h1>
-          <h1 className="w-[45rem] mt-4 text-xl">
+          <h1 className="w-[45rem] mt-4 text-xl mad6:text-[1rem] mad6:w-[30rem]">
             Already millions of people are very satisfied by thi. s page builder
             and the number is growing more and more. Technolog developing,
             requirements are increasing. Riode has brought.
@@ -44,7 +44,7 @@ export default function Asec1() {
           height="550"
           width="550"
           alt=""
-          className="rounded-2xl ml-[27rem] mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad4:ml-[10rem]"
+          className="rounded-2xl ml-[27rem] mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem]"
         />
       </div>
     </>

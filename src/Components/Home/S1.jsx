@@ -5,7 +5,7 @@ export default function S1() {
         <h1 className="text-[1rem] font-bold">For Mens</h1>
         <h1 className="text-xs">Starting at $24</h1>
       </div>
-      <h1 className="ml-[5.3rem] mad4:ml-[3.2rem] mad3:ml-[1rem] mad1:ml-[1rem] mt-8 text-[0.9rem]">
+      <h1 className="ml-[5.3rem] mad4:ml-[3.2rem] mad3:ml-[1rem] mad1:ml-[1rem] mad6:hidden mt-8 text-[0.9rem]">
         Shop Now
       </h1>
     </div>

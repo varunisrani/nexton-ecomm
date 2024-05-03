@@ -41,14 +41,14 @@ export default function page() {
             src="https://i.ibb.co/4gGzqdK/image.png"
             height={625}
             width={625}
-            className="mt-6 rounded-xl mad4:hidden mad3:hidden mad2:hidden mad1:hidden"
+            className="mt-6 rounded-xl mad4:hidden mad3:hidden mad2:hidden mad1:hidden mad6:hidden"
             alt=""
           />
           <Image
             src="https://i.ibb.co/4gGzqdK/image.png"
             height={800}
             width={2000}
-            className="mt-6 rounded-xl mad5:hidden mad4:w-[45rem] mad3:w-[50rem] mad2:w-[50rem] mad1:w-[30rem]"
+            className="mt-6 rounded-xl mad5:hidden mad4:w-[45rem] mad3:w-[50rem] mad2:w-[50rem] mad1:w-[30rem] mad6:hidden"
             alt=""
           />
           <div className="mt-6 ml-[8rem] mad3:ml-[2rem] mad2:ml-[2rem] mad1:ml-[2rem]">
