@@ -5,10 +5,10 @@ import Input1 from "./Input1";
 export default function LoginForm() {
   return (
     <main className="flex flex-col justify-center items-center mt-[3rem] ">
-      <h1 className="text-[2.5rem] font-medium mad4:text-[2.2rem] mad3:text-[2.2rem] mad2:text-[2.2rem]">
+      <h1 className="text-[2.5rem] font-medium mad4:text-[2.2rem] mad3:text-[2.2rem] mad2:text-[2.2rem] mad1:text-[2.2rem]">
         Login
       </h1>
-      <div className="mt-[4rem] mad4:mt-[2rem] mad3:mt-[2rem] mad2:mt-[2rem] flex flex-col gap-9">
+      <div className="mt-[4rem] mad4:mt-[2rem] mad3:mt-[2rem] mad2:mt-[2rem] mad1:mt-[2rem] flex flex-col gap-9">
         <Input1 label="Email" place="example@example.com" type="email" />
         <Input1 label="Password" place="Enter your passowrd" type="password" />
       </div>

@@ -9,7 +9,7 @@ export default function Main() {
         <Productrow />
         <Productrow />
       </div>
-      <div className="absolute right-60 top-[107rem] mad4:absolute mad4:right-20 mad4:top-[107rem]  ">
+      <div className="absolute right-60 top-[107rem] mad4:absolute mad4:right-20 mad1:top-[107rem] mad1:absolute mad1:right-20 mad1:top-[107rem] ">
         <Select />
       </div>
     </main>
