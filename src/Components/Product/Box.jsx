@@ -1,6 +1,6 @@
 export default function Box() {
   return (
-    <div className="flex flex-col h-[35rem] w-[35rem] border border-[#E5E7EB] rounded-2xl ml-[5rem] mad4:ml-[2rem] mt-5">
+    <div className="flex flex-col h-[35rem] w-[35rem] border border-[#E5E7EB] rounded-2xl ml-[5rem] phone:ml-2 mad4:ml-[2rem] mt-5">
       <div className="flex mt-10 ml-7">
         <h1>142 reviews</h1>
         <div className="flex flex-col ml-[20rem]">

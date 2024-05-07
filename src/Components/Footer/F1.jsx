@@ -3,7 +3,7 @@ import Part2 from "./Part2";
 
 export default function F1() {
   return (
-    <main className="flex flex-row mt-[5.5rem] w-full justify-between">
+    <main className="flex flex-row mt-[5.5rem] w-full justify-between phone:flex phone:flex-col phone:gap-20">
       <Part1 />
       <Part2
         main="Getting started"

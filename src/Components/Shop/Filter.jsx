@@ -4,7 +4,7 @@ import Inputfilter from "./Inputfilter";
 
 export default function Filter() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col phone:hidden">
       <span className="text-xl font-medium text-black">Categories</span>
       <div className="mt-7">
         <FilterChoice

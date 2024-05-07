@@ -5,15 +5,17 @@ import Part1 from "./Part1";
 import Footer from "@/Components/Footer/Footer";
 import S1 from "@/Components/Home/S1";
 import Product from "@/Components/Product";
+import MobileNavbar from "@/Components/MobileNavbar";
 export default function Home() {
   return (
     <div className="flex flex-col ">
-      <div className="flex flex-col text-7[1rem] mr-[5rem] ml-[5rem]">
+      <div className="flex flex-col text-7[1rem] mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
         <Navbar />
+        <MobileNavbar />
       </div>
       <Slider />
 
-      <div className="flex flex-row justify-between   w-[100rem] mad5:w-[110rem] mad4:w-[90rem] mad3:w-[81rem] mad2:w-[81rem] mad1:w-[70rem] mad6:w-[53rem] h-[5.3rem] border border-black/20  mt-[3rem] rounded-[1rem] mr-[5rem] ml-[5rem] ">
+      <div className="flex flex-row justify-between   w-[100rem] mad5:w-[110rem] mad4:w-[90rem] mad3:w-[81rem] mad2:w-[81rem] mad1:w-[70rem] mad6:w-[53rem] h-[5.3rem] border border-black/20  mt-[3rem] rounded-[1rem] mr-[5rem] ml-[5rem] phone:hidden">
         <div className="ml-10 mt-5 flex flex-row  w-[100rem] mad4:w-[90rem] mad5:w-[108rem] justify-between mr-10">
           <Part1 title="Free shipping" stitle="On orders over $50.00" />
           <Part1 title="Very easy to return" stitle="Just phone number" />
@@ -25,50 +27,72 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col mr-[5rem] ml-[5rem]">
-        <div className="flex flex-row gap-2 text-[2.2rem] mt-[5.3rem] font-medium ">
+      <div className="flex flex-col ml-5 mt-5 mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden ">
+        <h1 className="text-[1.1rem] font-semibold">
+          Nexton® always with you
+        </h1>
+        <div className="flex flex-row text-[1rem] gap-4 mt-3 justify-between mr-5">
+          <h1>Free shipping</h1>
+          <h1>Very easy to return</h1>
+        </div>
+      </div>
+
+      <div className="flex flex-col mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
+        <div className="flex flex-row gap-2 text-[2.2rem] mt-[5.3rem] font-medium phone:text-2xl phone:flex phone:flex-col ">
           <h1>Start exploring.</h1>
-          <h1 className="text-black/60">Good things are waiting for you</h1>
+          <h1 className="text-black/60 phone:hidden">
+            Good things are waiting for you
+          </h1>
         </div>
       </div>
-      <div className="flex flex-row mr-[5rem] ml-[5rem] mt-[2rem]">
+      <div className="flex flex-row mr-[5rem] ml-[5rem] mt-[2rem] phone:ml-5 phone:mr-5">
         <S1 />
-        <S1 />
-        <S1 />
-        <S1 />
-        <S1 />
+        <div className="phone:hidden">
+          <S1 />
+          <S1 />
+          <S1 />
+          <S1 />
+        </div>
       </div>
 
-      <div className="flex flex-col mr-[5rem] ml-[5rem]">
+      <div className="flex flex-col mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
         <div className="flex flex-row gap-2 text-[2.2rem] mt-[8.3rem] font-medium ">
-          <h1>Recommendations.</h1>
-          <h1 className="text-black/60">Best matching products for you</h1>
+          <h1 className="phone:text-2xl">Recommendations.</h1>
+          <h1 className="text-black/60 phone:hidden">
+            Best matching products for you
+          </h1>
         </div>
       </div>
 
-      <div className="flex flex-row   mr-[5rem] ml-[5rem] gap-5 mad5:flex mad5:flex-row mad5:justify-between mad4:gap-10 mt-[3rem] mad3:flex mad3:flex-row mad3:justify-between  mad2:flex mad2:flex-row mad2:justify-between mad1:flex mad1:flex-row mad1:justify-between mad6:flex mad6:flex-row mad6:justify-between mad4:flex mad4:flex-row mad4:justify-between">
+      <div className="flex flex-row  mr-[5rem] ml-[5rem] gap-5 mad5:flex mad5:flex-row mad5:justify-between mad4:gap-10 mt-[3rem] mad3:flex mad3:flex-row mad3:justify-between  mad2:flex mad2:flex-row mad2:justify-between mad1:flex mad1:flex-row mad1:justify-between mad6:flex mad6:flex-row mad6:justify-between mad4:flex mad4:flex-row mad4:justify-between phone:ml-5 phone:mr-5">
         <div className="flex flex-row">
           <Product />
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row phone:hidden">
           <Product />
         </div>
-        <div className="flex flex-row mad6:hidden">
+        <div className="flex flex-row mad6:hidden phone:hidden">
           <Product />
         </div>
-        <div className="flex flex-row mad1:hidden mad6:hidden mad2:hidden mad3:hidden mad4:hidden">
+        <div className="flex flex-row mad1:hidden mad6:hidden mad2:hidden mad3:hidden mad4:hidden phone:hidden">
           <Product />
         </div>
       </div>
 
-      <div className="flex flex-col mr-[5rem] ml-[5rem]">
-        <div className="flex flex-row gap-2 text-[2.2rem] mt-[8.3rem] font-medium ">
+      <div className="flex flex-col mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
+        <div className="flex flex-row gap-2 text-[2.2rem] mt-[8.3rem] font-medium phone:text-2xl justify-between">
           <h1>Best Sellers.</h1>
-          <h1 className="text-black/60">Best selling of the month</h1>
+          <h1 className="text-black/60 phone:hidden">
+            Best selling of the month
+          </h1>
         </div>
       </div>
 
-      <div className="relative mt-[2rem]">
+      <div className="phone:ml-5 phone:mr-5 phone:mt-8">
+        <Product />
+      </div>
+
+      <div className="relative mt-[2rem] phone:hidden">
         <Image
           src="https://i.ibb.co/KKXBBR8/hero-bg.png"
           height={200}
@@ -99,7 +123,7 @@ export default function Home() {
           Shop now
         </button>
       </div>
-      <div className="mr-[5rem] ml-[5rem]">
+      <div className="mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
         <Footer />
       </div>
     </div>

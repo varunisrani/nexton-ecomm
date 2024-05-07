@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        phone: { min: "300px", max: "470px" },
+        mid: { min: "470px", max: "640px" },
         mad1: { min: "1280px", max: "1366px" },
         mad2: { min: "1366px", max: "1440px" },
         mad3: { min: "1430px", max: "1600px" },
