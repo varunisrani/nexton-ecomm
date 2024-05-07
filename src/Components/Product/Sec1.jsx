@@ -44,7 +44,9 @@ export default function Sec1() {
         <div className="mt-10 phone:mt-5 mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
           <Product />
         </div>
-        <Productrow />
+        <div className="phone:hidden">
+          <Productrow />
+        </div>
       </div>
     </div>
   );
