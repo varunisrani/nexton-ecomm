@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center mx-8 mt-5 phone:hidden mid:hidden">
+    <div className="nav">
       <Image
         src="https://i.ibb.co/ZTM1pJF/logo.png"
         height={80}

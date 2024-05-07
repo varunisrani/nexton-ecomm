@@ -20,7 +20,7 @@ export default function Asec1() {
           className="rounded-2xl"
         />
 
-        <div className="flex flex-col ml-[20rem] phone:ml-1 mt-[10rem] mad3:mt-[6rem] mad3:ml-[10rem]  mad2:mt-[6rem] mad2:ml-[10rem] mad1:mt-[6rem] mad1:ml-[5rem] mad6:mt-[6rem] mad6:ml-[2rem] mad4:ml-[10rem] phone:mt-10">
+        <div className="about1">
           <h1 className="w-[35rem] phone:w-[20rem] text-5xl font-medium mad2:text-4xl mad1:text-4xl mad6:text-4xl phone:text-2xl phone:font-semibold">
             Provide fashionable and qualifed products
           </h1>
@@ -38,7 +38,7 @@ export default function Asec1() {
             height="550"
             width="550"
             alt=""
-            className="rounded-2xl ml-[27rem] phone:ml-0 mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem] mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden"
+            className="aboutimg1"
           />
           <h1 className="w-[35rem] phone:w-[23rem] phone:mt-10 phone:font-semibold text-5xl font-medium mad2:text-4xl mad1:text-4xl mad6:text-4xl phone:text-2xl">
             Provide fashionable and qualifed products
@@ -54,7 +54,7 @@ export default function Asec1() {
           height="550"
           width="550"
           alt=""
-          className="rounded-2xl ml-[27rem] mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem] phone:hidden"
+          className="aboutimg"
         />
       </div>
     </>

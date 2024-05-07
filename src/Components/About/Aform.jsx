@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Aform() {
   return (
-    <div className="flex flex-row mt-[10rem] phone:flex phone:flex-col">
+    <div className="aboutform">
       <div className="flex flex-col">
         <h1 className="font-semibold text-2xl">Get in touch with us</h1>
         <div className="flex flex-row">

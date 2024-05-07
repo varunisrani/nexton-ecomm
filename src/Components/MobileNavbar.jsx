@@ -1,6 +1,6 @@
 export default function MobileNavbar() {
   return (
-    <div className="flex flex-row mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden ">
+    <div className="mnav">
       <h1 className="text-[1rem] phone:mt-5">Logo</h1>
       <div className="h-[2.5rem] w-[12rem] bg-gray rounded-full flex ml-5 phone:mt-3">
         <input

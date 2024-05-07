@@ -2,3 +2,131 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .login {
+    @apply flex flex-col text-7xl mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5;
+  }
+  .mnav {
+    @apply flex flex-row mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden;
+  }
+  .nav {
+    @apply flex justify-between items-center mx-8 mt-5 phone:hidden mid:hidden;
+  }
+  .formtext {
+    @apply text-[2.5rem] font-medium mad4:text-[2.2rem] mad3:text-[2.2rem] mad2:text-[2.2rem] mad1:text-[2.2rem] phone:text-[2rem];
+  }
+  .formbutton {
+    @apply w-[28rem] phone:w-[18rem] h-[3.4rem] bg-black text-[1rem] text-white rounded-full font-medium mt-9 shadow-xl;
+  }
+  .orborder {
+    @apply border border-b-[#F3F4F6] w-[12rem] phone:w-[6rem] h-0 mt-[0.4rem];
+  }
+  .formmain {
+    @apply mt-[4rem] mad4:mt-[2rem] mad3:mt-[2rem] mad2:mt-[2rem] mad1:mt-[2rem] flex flex-col gap-9;
+  }
+  .inputmain {
+    @apply h-[3rem] w-[28rem] phone:h-[3rem] phone:w-[18rem] rounded-xl border border border-btext/40 text-[1rem] font-normal;
+  }
+  .footer {
+    @apply flex flex-row mt-[5.5rem] w-full justify-between phone:flex phone:flex-col phone:gap-20;
+  }
+  .register {
+    @apply flex flex-col text-7xl mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5;
+  }
+  .registerform {
+    @apply flex flex-col justify-center items-center mt-[3rem] mad4:mt-[1.5rem];
+  }
+  .loginform {
+    @apply flex flex-col justify-center items-center mt-[3rem];
+  }
+  .about {
+    @apply flex flex-col ml-[5rem] mr-[5rem] phone:ml-5 phone:mr-5;
+  }
+  .about1 {
+    @apply flex flex-col ml-[20rem] phone:ml-1 mt-[10rem] mad3:mt-[6rem] mad3:ml-[10rem]  mad2:mt-[6rem] mad2:ml-[10rem] mad1:mt-[6rem] mad1:ml-[5rem] mad6:mt-[6rem] mad6:ml-[2rem] mad4:ml-[10rem] phone:mt-10;
+  }
+  .aboutimg {
+    @apply rounded-2xl ml-[27rem] mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem] phone:hidden;
+  }
+  .aboutimg1 {
+    @apply rounded-2xl ml-[27rem] phone:ml-0 mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem] mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden;
+  }
+  .aboutform {
+    @apply flex flex-row mt-[10rem] phone:flex phone:flex-col;
+  }
+  .product {
+    @apply flex flex-col ml-[5rem] mr-[5rem] phone:ml-5 phone:mr-5;
+  }
+  .productimg {
+    @apply rounded-xl phone:mr-[1rem] mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden;
+  }
+  .mproductimgs {
+    @apply flex flex-col mr-5 gap-5 phone:gap-7 phone:ml-4 mt-5 ml-7 phone:flex phone:flex-row  mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden;
+  }
+  .dproductimgs {
+    @apply flex flex-col mr-5 gap-5 mt-5 ml-7 phone:flex phone:flex-row phone:ml-1 phone:hidden;
+  }
+  .productbox {
+    @apply mt-6 ml-[8rem] phone:ml-2 mad3:ml-[2rem] mad2:ml-[2rem] mad1:ml-[2rem] phone:hidden;
+  }
+  .box {
+    @apply flex flex-col h-[35rem] w-[35rem] border border-[#E5E7EB] rounded-2xl ml-[5rem] phone:ml-2 mad4:ml-[2rem] mt-5;
+  }
+  .boxtextdiv {
+    @apply h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl;
+  }
+  .boxtext {
+    @apply text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black;
+  }
+  .cartbutton {
+    @apply text-[1.1rem] w-[11rem] h-[4rem] bg-black text-white rounded-full  text-xl font-medium ml-[12rem];
+  }
+  .productrow {
+    @apply flex flex-row gap-20 md:gap-10 mad3:flex mad3:flex-row mad3:justify-between mad3:mr-[3rem]  mad2:flex mad2:flex-row mad2:justify-between mad1:flex mad1:flex-row mad1:justify-between mad6:flex mad6:flex-row mad6:justify-between mad5:mr-[3rem] mad5:flex mad5:flex-row mad5:justify-between;
+  }
+  .mbox {
+    @apply flex flex-col mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden;
+  }
+  .mboxtextdiv {
+    @apply h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl;
+  }
+  .mboxtext {
+    @apply text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black;
+  }
+  .mcartbutton {
+    @apply text-[1rem] w-[11rem] h-[3rem] bg-black text-white rounded-full font-medium ml-10;
+  }
+  .checkout {
+    @apply flex flex-col ml-[5rem] mr-[5rem] phone:ml-5 phone:mr-5;
+  }
+  .cmain {
+    @apply flex flex-row mad2:flex mad2:flex-col mad2:justify-center mad1:flex mad1:flex-col mad6:flex mad6:flex-col phone:hidden;
+  }
+  .main {
+    @apply flex flex-col mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden;
+  }
+  .input1 {
+    @apply flex flex-col w-[40rem] h-[10rem] border border-brdc rounded-2xl mt-[3rem];
+  }
+  .input2 {
+    @apply flex flex-col w-[40rem] h-[33rem] border border-brdc rounded-2xl mt-[3rem];
+  }
+  .input3 {
+    @apply flex flex-col w-[40rem] h-[22rem] border border-brdc rounded-2xl mt-[3rem];
+  }
+  .main2 {
+    @apply flex flex-col  ml-[15rem] mad4:ml-[8rem] mad3:ml-[1.2rem] mad2:ml-[2rem] mad1:ml-[2rem] mad6:ml-[2rem] mt-[3rem];
+  }
+  .cborder {
+    @apply border border-[#475569] w-[40rem] h-0 mt-[2rem];
+  }
+  .mmain {
+    @apply flex flex-col mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden mt-5;
+  }
+  .mtext {
+    @apply text-[1.1rem] text-black/60;
+  }
+  .confirmbutton {
+    @apply w-full h-[3.4rem] bg-black text-[1.1rem] text-white rounded-full font-medium mt-9 shadow-xl;
+  }
+}

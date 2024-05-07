@@ -5,7 +5,7 @@ export default function Csec1() {
     <div className="flex flex-col ml-[2rem] mt-[3rem]">
       <h1 className="text-3xl font-semibold">Chekout</h1>
       <h1 className="text-[1rem] ml-[0.1rem] mt-3 ">Homepage / Checkout</h1>
-      <div className="flex flex-col w-[40rem] h-[10rem] border border-brdc rounded-2xl mt-[3rem]">
+      <div className="input1">
         <h1 className="text-[0.8rem] text-black/90 ml-5 mt-6">CONTACT INFO</h1>
         <div className="border border-b-brdc w-[40rem] h-0 mt-[1rem]"></div>
         <div className="flex flex-row">
@@ -13,7 +13,7 @@ export default function Csec1() {
           <Input label="Email address" type="email" />
         </div>
       </div>
-      <div className="flex flex-col w-[40rem] h-[33rem] border border-brdc rounded-2xl mt-[3rem]">
+      <div className="input2">
         <h1 className="text-[0.8rem] text-black/90 ml-5 mt-6">
           SHIPPING ADDRESS
         </h1>
@@ -62,7 +62,7 @@ export default function Csec1() {
           <Input label="Postal code" />
         </div>
       </div>
-      <div className="flex flex-col w-[40rem] h-[22rem] border border-brdc rounded-2xl mt-[3rem]">
+      <div className="input3">
         <h1 className="text-[0.8rem] text-black/90 ml-5 mt-6">PAYMENT</h1>
         <div className="border border-b-brdc w-[40rem] h-0 mt-[1rem]"></div>
 

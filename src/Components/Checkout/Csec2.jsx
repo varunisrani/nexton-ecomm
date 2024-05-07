@@ -3,13 +3,13 @@ import Product from "./Product";
 
 export default function Csec2() {
   return (
-    <div className="flex flex-col  ml-[15rem] mad4:ml-[8rem] mad3:ml-[1.2rem] mad2:ml-[2rem] mad1:ml-[2rem] mad6:ml-[2rem] mt-[3rem]">
+    <div className="mmain1">
       <h1 className="text-2xl font-semibold">Order summary</h1>
       <div className="border border-[#475569] w-[40rem] h-0 mt-[1rem]"></div>
       <Product />
-      <div className="border border-[#475569] w-[40rem] h-0 mt-[2rem]"></div>
+      <div className="cborder"></div>
       <Product />
-      <div className="border border-[#475569] w-[40rem] h-0 mt-[2rem]"></div>
+      <div className="cborder"></div>
       <div className="flex flex-row mt-5">
         <h1 className="text-[1.1rem] text-black/60">Subtotal</h1>
         <h1 className="text-[1.1rem] text-black/60 ml-[31rem]">$169.99</h1>

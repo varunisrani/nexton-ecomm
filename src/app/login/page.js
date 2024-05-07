@@ -5,7 +5,7 @@ import MobileNavbar from "@/Components/MobileNavbar";
 
 export default function page() {
   return (
-    <main className="flex flex-col text-7xl mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
+    <main className="login">
       <Navbar />
       <MobileNavbar />
       <LoginForm />

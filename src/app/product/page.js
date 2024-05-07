@@ -1,15 +1,13 @@
 import Footer from "@/Components/Footer/Footer";
 import MobileNavbar from "@/Components/MobileNavbar";
 import Navbar from "@/Components/Navbar";
-import Product from "@/Components/Product";
 import Box from "@/Components/Product/Box";
-import MobileBox from "@/Components/Product/MobileBox";
 import Sec1 from "@/Components/Product/Sec1";
 import Image from "next/image";
 
 export default function page() {
   return (
-    <main className="flex flex-col ml-[5rem] mr-[5rem] phone:ml-5 phone:mr-5">
+    <main className="product">
       <MobileNavbar />
       <Navbar />
       <div className="flex flex-row mt-5 phone:flex phone:flex-col">
@@ -17,10 +15,10 @@ export default function page() {
           src="https://i.ibb.co/8shMTZ9/product-image.png"
           height={350}
           width={350}
-          className="rounded-xl phone:mr-1[rem] mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden"
+          className="productimg"
           alt=""
         />
-        <div className="flex flex-col mr-5 gap-5 mt-5 ml-7 phone:flex phone:flex-row phone:ml-1 phone:hidden">
+        <div className="dproductimgs">
           <Image
             src="https://i.ibb.co/4gGzqdK/image.png"
             height={140}
@@ -47,7 +45,7 @@ export default function page() {
           />
         </div>
 
-        <div className="flex flex-col mr-5 gap-5 phone:gap-7 phone:ml-4 mt-5 ml-7 phone:flex phone:flex-row  mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
+        <div className="mproductimgs">
           <Image
             src="https://i.ibb.co/4gGzqdK/image.png"
             height={100}
@@ -82,7 +80,7 @@ export default function page() {
             className="mt-6 rounded-xl mad5:hidden mad4:w-[45rem] mad3:w-[50rem] mad2:w-[50rem] mad1:w-[30rem] mad6:hidden"
             alt=""
           />
-          <div className="mt-6 ml-[8rem] phone:ml-2 mad3:ml-[2rem] mad2:ml-[2rem] mad1:ml-[2rem] phone:hidden">
+          <div className="productbox">
             <Box />
           </div>
         </div>

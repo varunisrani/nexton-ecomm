@@ -1,6 +1,6 @@
 export default function Box() {
   return (
-    <div className="flex flex-col h-[35rem] w-[35rem] border border-[#E5E7EB] rounded-2xl ml-[5rem] phone:ml-2 mad4:ml-[2rem] mt-5">
+    <div className="box">
       <div className="flex mt-10 ml-7">
         <h1>142 reviews</h1>
         <div className="flex flex-col ml-[20rem]">
@@ -18,25 +18,17 @@ export default function Box() {
               S
             </h1>
           </div>
-          <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl">
-            <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-              M
-            </h1>
+          <div className="boxtextdiv">
+            <h1 className="boxtext">M</h1>
           </div>
-          <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl ">
-            <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-              L
-            </h1>
+          <div className="boxtextdiv ">
+            <h1 className="boxtext">L</h1>
           </div>
-          <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl ">
-            <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-              XL
-            </h1>
+          <div className="boxtextdiv ">
+            <h1 className="boxtext">XL</h1>
           </div>
-          <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl">
-            <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-              2XL
-            </h1>
+          <div className="boxtextdiv">
+            <h1 className="boxtext">2XL</h1>
           </div>
         </div>
       </div>
@@ -48,9 +40,7 @@ export default function Box() {
             <h1 className="mt-[0.2rem] text-3xl font-medium">+</h1>
           </div>
         </div>
-        <button className="text-[1.1rem] w-[11rem] h-[4rem] bg-black text-white rounded-full  text-xl font-medium ml-[12rem]">
-          Add to cart
-        </button>
+        <button className="cartbutton">Add to cart</button>
       </div>
       <div className="flex flex-row ml-7 mt-8">
         <h1 className="text-xl">$169.99 x 1</h1>

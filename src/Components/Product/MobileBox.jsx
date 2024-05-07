@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MobileBox() {
   return (
-    <div className="flex flex-col mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
+    <div className="mbox">
       <div className="flex flex-col ml-0 mt-5">
         <h1 className="text-xl font-medium">$68.00</h1>
         <h1 className="text-[0.8rem] font-medium text-black">
@@ -16,20 +16,14 @@ export default function MobileBox() {
             S
           </h1>
         </div>
-        <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl">
-          <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-            M
-          </h1>
+        <div className="mboxtextdiv">
+          <h1 className="mboxtext">M</h1>
         </div>
-        <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl ">
-          <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-            L
-          </h1>
+        <div className="mboxtextdiv ">
+          <h1 className="mboxtext">L</h1>
         </div>
-        <div className="h-[3rem] w-[5.5rem] border border-black/50 rounded-2xl ">
-          <h1 className="text-center mt-[0.6rem] text-[1.1rem] font-semibold text-black">
-            XL
-          </h1>
+        <div className="mboxtextdiv ">
+          <h1 className="mboxtext">XL</h1>
         </div>
       </div>
       <div className="flex flex-row ml-0 mt-[3rem]">
@@ -40,9 +34,7 @@ export default function MobileBox() {
             <h1 className="mt-[0.2rem] text-3xl font-medium mr-2">+</h1>
           </div>
         </div>
-        <button className="text-[1rem] w-[11rem] h-[3rem] bg-black text-white rounded-full font-medium ml-10">
-          Add to cart
-        </button>
+        <button className="mcartbutton">Add to cart</button>
       </div>
     </div>
   );
