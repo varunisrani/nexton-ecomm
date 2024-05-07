@@ -41,9 +41,10 @@ export default function Sec1() {
         <h1 className="text-4xl font-semibold phone:text-[1.7rem]">
           Recommendations
         </h1>
-        <div className="mt-10 phone:mt-5">
+        <div className="mt-10 phone:mt-5 mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
           <Product />
         </div>
+        <Productrow />
       </div>
     </div>
   );

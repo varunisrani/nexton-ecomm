@@ -18,7 +18,7 @@ export default function Main() {
           Rows per page
         </button>
       </div>
-      <div className="flex flex-col phone:mt-2 gap-7">
+      <div className="flex flex-col phone:mt-2 gap-7 mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
         <Product />
         <Product />
         <Product />

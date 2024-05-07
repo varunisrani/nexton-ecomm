@@ -17,7 +17,7 @@ export default function page() {
           src="https://i.ibb.co/8shMTZ9/product-image.png"
           height={350}
           width={350}
-          className="rounded-xl phone:mr-1[rem]"
+          className="rounded-xl phone:mr-1[rem] mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden"
           alt=""
         />
         <div className="flex flex-col mr-5 gap-5 mt-5 ml-7 phone:flex phone:flex-row phone:ml-1 phone:hidden">

@@ -38,7 +38,7 @@ export default function Asec1() {
             height="550"
             width="550"
             alt=""
-            className="rounded-2xl ml-[27rem] phone:ml-0 mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem]"
+            className="rounded-2xl ml-[27rem] phone:ml-0 mad3:ml-[10rem] mad2:ml-[10rem] mad1:ml-[5rem] mad6:ml-[2rem] mad4:ml-[10rem] mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden"
           />
           <h1 className="w-[35rem] phone:w-[23rem] phone:mt-10 phone:font-semibold text-5xl font-medium mad2:text-4xl mad1:text-4xl mad6:text-4xl phone:text-2xl">
             Provide fashionable and qualifed products

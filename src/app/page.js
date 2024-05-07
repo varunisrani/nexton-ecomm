@@ -47,7 +47,7 @@ export default function Home() {
       </div>
       <div className="flex flex-row mr-[5rem] ml-[5rem] mt-[2rem] phone:ml-5 phone:mr-5">
         <S1 />
-        <div className="phone:hidden">
+        <div className="phone:hidden flex flex-row ">
           <S1 />
           <S1 />
           <S1 />
@@ -81,14 +81,16 @@ export default function Home() {
 
       <div className="flex flex-col mr-[5rem] ml-[5rem] phone:ml-5 phone:mr-5">
         <div className="flex flex-row gap-2 text-[2.2rem] mt-[8.3rem] font-medium phone:text-2xl justify-between">
-          <h1>Best Sellers.</h1>
+          <h1 className="mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
+            Best Sellers.
+          </h1>
           <h1 className="text-black/60 phone:hidden">
             Best selling of the month
           </h1>
         </div>
       </div>
 
-      <div className="phone:ml-5 phone:mr-5 phone:mt-8">
+      <div className="phone:ml-5 phone:mr-5 phone:mt-8 mad1:hidden mad2:hidden mad3:hidden mad4:hidden mad5:hidden mad6:hidden">
         <Product />
       </div>
 
